@@ -1,9 +1,12 @@
+import Header from "./components/Header";
+
 const App = () => {
   return (
     <div>
-      <h1>Squadhelp Clone</h1>
+      <Header />
+      {/* Ниже потом будет страница самого контеста */}
     </div>
-  )
-}
+  );
+};
 
-export default App  
+export default App;
