@@ -5,7 +5,7 @@ const initialState = {
     firstName: 'Test',
     lastName: 'Testovich',
     displayName: 'TestName',
-    role: 'creator', // <-- Додали роль для перевірки в Завданні 2.2
+    role: 'creator', 
   },
   isAuth: true,
 };

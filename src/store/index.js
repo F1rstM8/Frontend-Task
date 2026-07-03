@@ -1,10 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
 import userReducer from './userSlice';
-import contestReducer from './contestSlice'; // <-- Імпортуємо
+import contestReducer from './contestSlice'; 
 
 export const store = configureStore({
   reducer: {
     userData: userReducer,
-    contestData: contestReducer, // <-- Додаємо в store
+    contestData: contestReducer, 
   },
 });

@@ -10,7 +10,7 @@ const initialState = {
     entries: 2,
     contestHolder: {
       displayName: 'buyerfn buyerln buyerdn',
-      email: 'buyer@example.com' // <-- Саме цей email ми маємо дістати і показати!
+      email: 'buyer@example.com' 
     }
   }
 };
