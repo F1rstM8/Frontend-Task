@@ -1,0 +1,129 @@
+.contest-page {
+  max-width: 1200px;
+  margin: 40px auto;
+  display: flex;
+  gap: 40px;
+  font-family: sans-serif;
+
+  .contest-content {
+    flex: 1;
+
+    .tabs {
+      display: flex;
+      border-bottom: 2px solid #eaeaeb;
+      margin-bottom: 30px;
+
+      .tab {
+        padding: 15px 30px;
+        background: transparent;
+        border: none;
+        font-size: 16px;
+        font-weight: bold;
+        color: #77838f;
+        cursor: pointer;
+
+        &.active {
+          background: #6b8ab1;
+          color: white;
+        }
+      }
+    }
+
+    .brief-details {
+      .detail-row {
+        margin-bottom: 25px;
+
+        h4 {
+          margin: 0 0 10px 0;
+          color: #333;
+        }
+        
+        p {
+          margin: 0;
+          color: #77838f;
+        }
+      }
+    }
+  }
+
+  .contest-sidebar {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .card {
+      border: 1px solid #eaeaeb;
+      border-radius: 4px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+
+      h4 {
+        margin-top: 0;
+        margin-bottom: 15px;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #333;
+      }
+    }
+
+    .prize-card {
+      background: #f8f9fa;
+      padding: 0;
+      overflow: hidden;
+      
+      h3 {
+        background: #6b8ab1;
+        color: white;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+        font-size: 24px;
+      }
+
+      p {
+        padding: 0 20px;
+        color: #333;
+      }
+    }
+
+    .stats-row {
+      display: flex;
+      justify-content: space-between;
+      color: #77838f;
+      border-bottom: 1px solid #eaeaeb;
+      padding-bottom: 10px;
+
+      strong {
+        color: #28d2d0;
+      }
+    }
+
+    .holder-info {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+
+      .avatar {
+        font-size: 40px;
+      }
+
+      .holder-details {
+        display: flex;
+        flex-direction: column;
+
+        .holder-name {
+          color: #28d2d0;
+          text-decoration: none;
+          cursor: pointer;
+        }
+
+        .holder-email {
+          margin-top: 5px;
+          color: #333;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
