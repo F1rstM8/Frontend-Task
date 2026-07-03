@@ -1,13 +1,13 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
- 
   user: {
     firstName: 'Test',
     lastName: 'Testovich',
     displayName: 'TestName',
+    role: 'creator', // <-- Додали роль для перевірки в Завданні 2.2
   },
-  isAuth: true, 
+  isAuth: true,
 };
 
 const userSlice = createSlice({
